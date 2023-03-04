@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 BOARD_VENDOR := motorola
 
 COMMON_PATH := device/motorola/sm7325-common
