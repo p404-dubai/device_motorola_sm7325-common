@@ -305,7 +305,7 @@
          Refer to autosuspend.h for details.
     -->
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
-
+    <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- List supported color modes. -->
     <array name="config_availableColorModes">
