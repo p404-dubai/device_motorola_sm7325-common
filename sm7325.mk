@@ -364,7 +364,8 @@ PRODUCT_PACKAGES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
     display \
-    perf
+    perf \
+    vibrator
 
 # RenderScript
 PRODUCT_PACKAGES += \
@@ -430,13 +431,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh
 
 PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
