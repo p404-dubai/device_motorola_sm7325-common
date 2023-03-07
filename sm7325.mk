@@ -360,7 +360,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     display \
     perf \
-    vibrator
+    vibrator \
+    wfd
 
 # RenderScript
 PRODUCT_PACKAGES += \
@@ -455,11 +456,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
     libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm7325-common/sm7325-common-vendor.mk)
