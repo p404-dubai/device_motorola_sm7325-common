@@ -356,10 +356,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson
