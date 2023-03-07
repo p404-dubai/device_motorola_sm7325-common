@@ -291,14 +291,11 @@ ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.use_smart_90_for_video=true
 
 # USB
-sys.usb.mtp.batchcancel=1
-vendor.usb.diag.func.name=ffs
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss_sw
 vendor.usb.rmnet.func.name=gsi
 vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
-vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=0
 
 # Wfd
